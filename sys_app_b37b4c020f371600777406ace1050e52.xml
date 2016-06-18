@@ -6,7 +6,7 @@
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
         <logo/>
-        <menu/>
+        <menu display_value="Marketing Events">7a8543ca0f802a00777406ace1050e1b</menu>
         <name>Marketing Events</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-06-05 05:33:55</sys_created_on>
         <sys_id>b37b4c020f371600777406ace1050e52</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-06-05 05:33:55</sys_updated_on>
+        <sys_updated_on>2016-06-18 05:37:56</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role/>
+        <user_role display_value="x_55714_marketing_marketing_events_user" name="x_55714_marketing_marketing_events_user">c685878a0f802a00777406ace1050ecc</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
 </record_update>

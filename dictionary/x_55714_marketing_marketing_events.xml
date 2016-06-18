@@ -2,7 +2,7 @@
 <database>
     <element label="Marketing Events" max_length="40" name="x_55714_marketing_marketing_events" type="collection">
         <element label="Budget" max_length="40" name="budget" type="currency"/>
-        <element choice="1" label="City" max_length="40" name="city" type="choice">
+        <element choice="1" choice_field="category" label="City" max_length="40" name="city" type="choice">
             <choice/>
         </element>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>

@@ -3,11 +3,18 @@
     <element label="Marketing Events" max_length="40" name="x_55714_marketing_marketing_events" type="collection">
         <element label="Budget" max_length="40" name="budget" type="currency"/>
         <element choice="1" choice_field="category" label="City" max_length="40" name="city" type="choice">
-            <choice/>
+            <choice>
+                <element label="Dallas" sequence="0" value="dallas"/>
+                <element label="Kansas City" sequence="1" value="kansas_city"/>
+                <element label="London" sequence="2" value="london"/>
+                <element label="San Jose" sequence="3" value="san_jose"/>
+                <element label="Portland" sequence="4" value="portland"/>
+                <element label="Sydney" sequence="5" value="sydney"/>
+            </choice>
         </element>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
-        <element display="true" label="Name" max_length="40" name="name" type="string"/>
-        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Number of Attendees Expected" max_length="40" name="number_of_attendees_expected" type="integer"/>
         <element label="Number of Attendees Registered" max_length="40" name="number_of_attendees_registered" type="integer"/>
         <element label="Sponsor" max_length="40" name="sponsor" type="string"/>
